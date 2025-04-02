@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чистый JS Проект</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>Чистый JavaScript проект</h1>
+        <nav>
+            <a href="/">Главная</a>
+            <a href="#features">Особенности</a>
+            <a href="#code">Код</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="features">
+            <h2>Как это работает?</h2>
+            <p>Этот проект демонстрирует возможности чистого JS:</p>
+            <ul class="features-list">
+                <li>Динамическая загрузка контента без перезагрузки страницы</li>
+                <li>Реальное время (обновляется каждую секунду)</li>
+                <li>Интерактивное отображение кода</li>
+                <li>Анимации на чистом CSS</li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Весь код проекта</h2>
+            <button id="show-code">Показать код сервера</button>
+            <pre class="code-block" id="server-code"></pre>
+        </section>
+
+        <section id="live-data">
+            <h2>Демонстрация в реальном времени</h2>
+            <p>Текущее время: <span id="live-time"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year"></span> Чистый JavaScript</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
