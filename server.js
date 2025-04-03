@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
         '/': 'views/index.html',
         '/style.css': 'public/style.css',
         '/script.js': 'public/script.js',
-        '/server.js': 'server.js' // Добавили возможность просмотра кода сервера
+        '/server.js': 'server.js' // Добавил возможность просмотра кода сервера
     };
 
     if (filePaths[req.url]) {
